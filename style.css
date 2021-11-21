@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+        
+}
+
+
+@import url('https://fonts.googleapis.com/css2? family = Playball & display = swap');
+
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    display: block;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+header > p {
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+header p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+header p > a:hover {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: underline;
+    
+}
+
+section p {
+    display: block;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10vw;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section#img01 {
+    background-image: url('https://cdn.pixabay.com/photo/2014/04/04/08/15/ladybug-313162_960_720.jpg');
+    background-position: right center;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0 / 47%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'Playball', cursive;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+section {
+    display: block;
+}
+
+section#img02 {
+    background-image: url('https://cdn.shopify.com/s/files/1/0148/6692/files/512px-Old_books_by_bionicteaching.jpg?v=1520106421');
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    display: block;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+footer a:hover {
+    background-color: yellow;
+    border-radius: 2px;
+    color: black;
+    padding: 5px;
+    text-decoration: underline;
+}
