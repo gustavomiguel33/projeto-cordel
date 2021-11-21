@@ -19,6 +19,13 @@ header {
     display: block;
 }
 
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'Anton', sans-serif;
+    font-size: 10vw;
+}
+
 p {
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -56,12 +63,6 @@ section p {
     line-height: 2em;
 }
 
-header > h1 {
-    padding-top: 50px;
-    font-variant: small-caps;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 10vw;
-}
 
 section.normal {
     background-color: white;
