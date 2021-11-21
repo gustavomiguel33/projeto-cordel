@@ -19,7 +19,6 @@ header {
     display: block;
 }
 
-
 p {
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -30,7 +29,7 @@ p {
 header > p {
     margin-bottom: 50px;
     padding-bottom: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2em;
 }
 
@@ -45,7 +44,7 @@ header p > a {
 header p > a:hover {
     background-color: yellow;
     color: black;
-    padding: 5px;
+    padding: 2px;
     border-radius: 2px;
     text-decoration: underline;
     
